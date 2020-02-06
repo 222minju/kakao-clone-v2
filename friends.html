@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Friends | Kakao Clone</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="status-bar">
@@ -19,97 +20,102 @@
             <span class="status-bar__battery-level">100%</span>
             <i class="fas fa-battery-full"></i>
         </div>
-        <header class="header">
-            <div class="header__header-column">
-                <h1 class="header__header-title">Friends</h1>
-            </div>
-            <div class="header__header-column">
-                <span class="header__icon">
-                    <i class="fas fa-search"></i>
-                </span>
-                <span class="header__icon">
-                    <i class="fas fa-cog"></i>
-                </span>
+    </div>
+    <header class="header">
+        <div class="header__header-column">
+            <h1 class="header__header-title">Friends</h1>
+        </div>
+        <div class="header__header-column">
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-cog"></i>
+            </span>
+        </div>
+    </header>
+    <main class="friends">
+        <header class="friends__header">
+            <div class="friends__friend friend">
+                <div class="friend__column">
+                    <img class="g-avatar friend__avatar" src="./images/avatar.png" alt="my avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Rhang-E
+                        </span>
+                        <span class="friend__status">
+                            Tiger Bus Tour
+                        </span>
+                    </div>
+                </div>
             </div>
         </header>
-        <main class="friends">
-            <header class="friends__header">
-                <div class="friends__friend friend friend--lg">
-                    <div class="friend__column">
-                        <img class="g-avatar friend__avatar" src="./images/avatar.png" alt="my avatar">
-                        <div class="friend__content">
-                            <span class="friend__name">
-                                Rhang-E
-                            </span>
-                            <span class="friend__status">
-                                Tiger Bus Tour
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <div class="friends__plus">
-                <h5 class="friends__friends-title">Plus Friend</h5>
-                <div class="friends__friend friend">
-                    <div class="friend__column">
-                        <img class="g-avatar friend__avatar" src="./images/avatar.png" alt="me">
-                        <div class="friend__content">
-                            <span class="friend__name">
-                                Plus Friend
-                            </span>
-                        </div>
+        <div class="friends__plus">
+            <h5 class="friends__friends-title">Plus Friend</h5>
+            <div class="friends__friend friend">
+                <div class="friend__column">
+                    <img class="friend__avatar" src="./images/avatar.png" alt="me">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Plus Friend
+                        </span>
                     </div>
                 </div>
             </div>
-            <ul class="frends__list">
-                <h5 class="friends__friends-title">Friends</h5>
-                <li class="friends__friend friend">
-                    <div class="friend__column">
-                        <img class="g-avatar friend__avatar" src="./images/avatar.png" alt="me">
-                        <div class="friend__content">
-                            <span class="friend__name">
-                                Rhang-E
-                            </span>
-                            <span class="friend__status">
-                                Tiger Bus Tour
-                            </span>
-                        </div>
+        </div>
+        <ul class="frends__list">
+            <h5 class="friends__title">Friends 14</h5>
+            <li class="friends__friend friend">
+                <div class="friend__column">
+                    <img class="friend__avatar" src="./images/avatar.png" alt="me">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Rhang-E
+                        </span>
+                        <span class="friend__status">
+                            Tiger Bus Tour
+                        </span>
                     </div>
-                    <div class="friend__column">
-                        <div class="friend__now-listening">
-                            <span>
-                                호랑이쏭
-                            </span>
-                            <i class="fas fa-play"></i>
-                        </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span>
+                            Tiger song
+                        </span>
+                        <i class="fas fa-play"></i>
                     </div>
-                </li>
-            </ul>
-        </main>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__list-item">
-                    <a href="./friends.html" class="nav__list-link">
-                        <i class="fas fa-user"></i>
-                    </a>
-                </li>
-                <li class="nav__list-item">
-                    <a href="./index.html" class="nav__list-link">
-                        <i class="far fa-comment"></i>
-                    </a>
-                </li>
-                <li class="nav__list-item">
-                    <a href="./find.html" class="nav__list-link">
-                        <i class="fas fa-search"></i>
-                    </a>
-                </li>
-                <li class="nav__list-item">
-                    <a href="./more.html" class="nav__list-link">
-                        <i class="fas fa-ellipsis-h"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item">
+                <a href="./friends.html" class="nav__list-link">
+                    <div class="nav__badge">1</div>
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="./index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
+                    <i class="far fa-comment"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="./find.html" class="nav__list-link">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="./more.html" class="nav__list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small</span>
     </div>
 </body>
 </html>
