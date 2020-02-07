@@ -1,0 +1,33 @@
+.friends .friends__plus {
+    padding: 20px 0px;
+    border-top: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+    margin: 20px 0px;
+}
+
+.chats__chat .friend {
+    padding: 15px 0px;
+}
+
+.friends__plus .friends__friends-title,
+.friends__list .friends__title {
+    font-size: 14px;
+    opacity: 0.6;
+    margin-bottom: 15px;
+}
+
+.friend .friend__now-listening {
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: #25e067 2px solid;
+    font-size: 13px;
+}
+
+.friend__now-listening span {
+    opacity: 0.6;
+    padding-right: 5px;
+}
+
+.friend__now-listening i {
+    color: #25e067;
+}
